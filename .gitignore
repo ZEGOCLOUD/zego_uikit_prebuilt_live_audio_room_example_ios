@@ -89,4 +89,8 @@ fastlane/test_output
 
 iOSInjectionProject/
 ZegoUIKitPrebuiltLiveAudioRoomDemo/Pods/
+Podfile.lock
+ZegoUIKitPrebuiltLiveAudioRoomDemo.xcodeproj/project.xcworkspace
+ZegoUIKitPrebuiltLiveAudioRoomDemo.xcodeproj/project.xcworkspace/
+ZegoUIKitPrebuiltLiveAudioRoomDemo.xcworkspace/
 
