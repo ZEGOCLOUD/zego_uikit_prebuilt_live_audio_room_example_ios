@@ -26,7 +26,7 @@ And it includes the business logic along with the UI, enabling you to customize 
     > Add or remove features accordingly 
 
 
-To build a live audio app from scratch, you may check our [Voice Call](http://docs.zegocloud.com/article/!ExpressAudioSDK-Overview/Overview).
+To build a live audio app from scratch, you may check our [Voice Call](https://docs.zegocloud.com/article/5622).
 
 
 
@@ -53,7 +53,7 @@ To build a live audio app from scratch, you may check our [Voice Call](http://do
 
 ### Add dependencies
 
-Do the following to add the `ZegoUIKitPrebuiltLiveAudioRoom` and `ZegoUIKitSignalingPlugin` dependencies:
+Do the following to add the `ZegoUIKitPrebuiltLiveAudioRoom` dependencies:
 
 - Open Terminal, navigate to your project's root directory, and run the following to create a `podfile`: 
 
