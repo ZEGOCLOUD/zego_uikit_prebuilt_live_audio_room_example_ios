@@ -10,8 +10,8 @@ import ZegoUIKitPrebuiltLiveAudioRoom
 
 class ViewController: UIViewController {
     
-    let appID: UInt32 = <#AppID#>
-    let appSign: String = <#AppSign#>
+    let appID: UInt32 = <#YourAppID#>
+    let appSign: String = <#YourAppSign#>
     var userID: String = String(format: "%d", arc4random() % 999999)
     var userName: String = String(format: "n_%d", arc4random() % 999999)
     var roomID: String = "99999"
