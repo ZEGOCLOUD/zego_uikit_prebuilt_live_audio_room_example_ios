@@ -1,0 +1,26 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '12.0'
+
+target 'ZegoUIKitPrebuiltLiveAudioRoomDemoOC' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for ZegoUIKitPrebuiltLiveAudioRoomDemoOC
+#  pod 'ZegoUIKitPrebuiltLiveAudioRoom'
+
+  pod 'ZegoUIKitPrebuiltLiveAudioRoom', :path => '../../../../zego_uikit_ios/zego_uikit_prebuilt_live_audio_room'
+  pod 'ZegoUIKit', :path => '../../../../zego_uikit_ios/zego_uikit'
+  pod 'ZegoUIKitSignalingPlugin', :path => '../../../../zego_uikit_ios/zego_uikit_plugin_signaling'
+  pod 'ZegoPluginAdapter', :path => '../../../../zego_uikit_ios/zego_uikit_plugin_adapter'
+
+end
+
+post_install do |installer|
+    installer.generated_projects.each do |project|
+      project.targets.each do |target|
+          target.build_configurations.each do |config|
+              config.build_settings['CODE_SIGN_IDENTITY'] = ''
+           end
+      end
+    end
+  end
